@@ -15,4 +15,4 @@ int y1 = int.Parse(parts1[1]);
 int z1 = int.Parse(parts1[2]);
 
 double AB = Math.Sqrt(Math.Pow(x1 - x, 2) + Math.Pow(y1 - y, 2) + Math.Pow(z1 - z, 2));
-Console.WriteLine($"Расстояние между точками А и В равно {AB}");
+Console.WriteLine($"Расстояние между точками А и В равно {Math.Round(AB,2)}");
